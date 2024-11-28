@@ -1,0 +1,17 @@
+C++ Known Libraries
+===================
+
+- <iostream> -> Input/Output stream of program
+   + cout <<
+   + cin >>
+   + getLine(cin,)
+- <string> -> String data type
+   + string strname = "Hello World";
+- <ctsdlib> -> Random number generator
+   + rand()
+      Random number between 0 and 32767
+   + srand(int)
+      Seed the random number generator by using another number
+- <ctime>
+   + time()
+      The amount of time the program has been running; can be used to seed random number generator easily
